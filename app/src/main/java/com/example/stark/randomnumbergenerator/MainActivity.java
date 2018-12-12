@@ -51,10 +51,11 @@ public class MainActivity extends AppCompatActivity {
                     max=Integer.parseInt(input_max.getText().toString());
                     if(min>max)
                     {
-                        min=0;
-                        max=100;
-                        input_min.setText(Integer.toString(0));
-                        input_max.setText(Integer.toString(100));
+                        int temp=min;
+                        min=max;
+                        max=temp;
+                        input_min.setText(Integer.toString(min));
+                        input_max.setText(Integer.toString(max));
                     }
                 }
                 else
