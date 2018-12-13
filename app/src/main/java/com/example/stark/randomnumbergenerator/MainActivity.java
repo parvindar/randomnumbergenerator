@@ -47,6 +47,12 @@ public class MainActivity extends AppCompatActivity {
                         input_max.setText("2147483646");
                     }
 
+                    if(Long.parseLong(input_min.getText().toString())>=2147483647)
+                    {
+                        input_min.setText("2147483646");
+                    }
+
+
                     min=Integer.parseInt(input_min.getText().toString());
                     max=Integer.parseInt(input_max.getText().toString());
                     if(min>max)
