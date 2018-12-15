@@ -1,4 +1,4 @@
-package com.example.stark.randomnumbergenerator;
+package com.randomnumber.stark.randomnumbergenerator;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

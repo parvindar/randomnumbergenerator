@@ -1,4 +1,4 @@
-package com.example.stark.randomnumbergenerator;
+package com.randomnumber.stark.randomnumbergenerator;
 
 import org.junit.Test;
 
